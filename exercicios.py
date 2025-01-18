@@ -10,4 +10,4 @@ import math
 raio_circulo = float(input("Digite o raio do circulo: "))
 area_do_circulo = math.pi*raio_circulo**2
 
-print(area_do_circulo)
+print(f"{area_do_circulo:.2f}")
